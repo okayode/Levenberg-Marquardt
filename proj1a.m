@@ -22,6 +22,15 @@ format long e % using the highest matlab precision
 warning('off','all') % This suppresses the RCOND warnings
 prompt = 'Enter the input text file: ';
 
+% Enter any of the following txt files %
+
+% Ar_223.15K_virial_experiment_B2-B6.txt
+% Ar_273.15K_virial_theory_B2-B7.txt
+% He_148.15K_virial_B2-B4.txt
+% He_50K_virial_B2-B5.txt
+% air_100K_virial_B2.txt
+% ethane_215K_virial_B2-B3.txt
+
 filename = input(prompt,'s');
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
